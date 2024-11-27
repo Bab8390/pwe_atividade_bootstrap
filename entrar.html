@@ -17,21 +17,43 @@
   </header>
   
   <main> <!-- indica que é o conteúdo principal dessa página -->
-		<h1>Entrar</h1>
         <form method="POST">
-            <div>
-                <label for="entrar-usuario">Usuário</label>
-                <input type="text" name="usuario" id="entrar-usuario" required />
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-4"></div>
+              <div class="col-sm-4">Faça login</div>
+              <div class="col-sm-4"></div>
+            </div>
+          </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-4">
+                  <label for="entrar-email">Endereço de email</label><br>
+                  <input type="text" name="email" id="entrar-email" required />
+                </div>
+                <div class="col-sm-4"></div>
+              </div>
             </div>
             <br>
-            <div>
-                <label for="entrar-senha">Senha</label>
-                <input type="password" name="senha" id="entrar-senha" required />
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-4">
+                  <label for="entrar-senha">Senha</label><br>
+                  <input type="password" name="senha" id="entrar-senha" required />
+                </div>
+                <div class="col-sm-4"></div>
             </div>
             <br>
-            <div>
-                <input type="submit" value="Entrar">
-                <a href="#">Esqueci a senha</a>
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-4">
+                  <input type="submit" value="login">
+                  <a href="#">Esqueci a senha</a>
+                </div>
+                <div class="col-sm-4"></div>
             </div>
         </form>
   </main>
